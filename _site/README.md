@@ -1,4 +1,5 @@
-ryandjf.github.io
-=================
+ryandjf.gitcafe.com
+================
 
-Junfeng's Blog
+http://ryandjf.gitcafe.com 。
+

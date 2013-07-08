@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="cn">
+<head>
+<meta charset="utf-8" />
+<title>
+	{% if page.title %}{{ page.title }}
+	{% elsif page.date %}{{ page.date|date:'%Y-%m-%d' }}
+	{% else %}{{ site.title }}
+	{% endif %}
+</title>
+<!-- <script src="http://code.jquery.com/jquery.js"></script> -->
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<link rel="stylesheet" href="/css/default.css" />
+<link rel="stylesheet" href="/css/pygments.css" />
+</head>
+<body>
+<header id="page_header">
+    <h1 id="page_title"><a href="/">{{ site.title }}</a></h1>
+    <nav id="nav_bar">
+        <ul>
+            <li><a href="/archive/">Archive</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="page_width_holder">
+<div id="content">
+{{ content }}
+</div>
+</div>
+<footer id="page_footer">
+    <p>
+        <span>{{ site.title }}</span>
+        <span> | </span>
+        <span>Powered by </span>
+        <span><a href="http://github.com/mojombo/jekyll">Jekyll</a></span>
+        <span>&amp;</span>
+        <span><a href="https://github.com">GitCafe</a></span>
+    </p>
+</footer>
+</body>
+</html>

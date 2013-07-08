@@ -1,0 +1,182 @@
+/* Help older browsers understand HTML5 */
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+
+body, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f0efe7;
+	color: #4e443c;
+}
+
+a:link, a:visited {
+	color: #0388a6;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #f14e32;
+}
+
+pre {
+	overflow: auto;
+}
+
+code {
+	font-size: 10pt;
+	line-height: 11pt;
+}
+
+#page_header, #page_width_holder, #page_footer {
+	width: 700px;
+	margin: auto;
+	padding-left: 150px;
+	padding-right: 50px;
+}
+
+#page_header {
+	padding-top: 10px;
+}
+
+#page_header h1 {
+	font-size: 60px;
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+
+#page_header a {
+	color: #413932;
+}
+
+#page_header a:hover, #page_header a:active {
+	color: #f14e32;
+}
+
+#page_title {
+	float: left;
+}
+
+#nav_bar ul {
+	float: left;
+	list-style-type: none;
+	padding: 20px 0 0 20px;
+	margin-bottom: 0;
+}
+
+#nav_bar li {
+	float: left;
+	padding-left: 20px;
+}
+
+#page_width_holder {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+#content {
+	background-color: #ffffff;
+	padding: 20px 0 20px 0;
+	border: solid 1px #e2e0d8;
+	font-size: 12pt;
+	line-height: 16pt;
+}
+
+#content p {
+	text-indent: 2em;
+}
+
+#content li p {
+	text-indent: 0;
+}
+
+
+#content article header {
+	position: relative;
+}
+
+#content article header time {
+	background-color: #e2e0d8;
+	position: absolute;
+	left: -130px;
+	top: -20px;
+	width: 80px;
+	height: 80px;
+}
+
+#content article header time .year {
+	font-size: 8pt;
+	color: #9a9994;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-right: 10px;
+}
+
+#content article header time .month {
+	font-size: 8pt;
+	color: #9a9994;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-left: 10px;
+}
+
+#content article header time .day {
+	font-size: 24pt;
+	font-weight: bolder;
+	position: absolute;
+	display: block;
+	width: 100%;
+	line-height: 80px;
+	text-align: center;
+	top: 0;
+	left: 0;
+}
+
+.post_item {
+	border-bottom: dotted 1px #e2e0d8;
+}
+
+.post {
+	padding: 20px 50px 0 50px;
+}
+
+.page {
+	padding: 20px 50px 50px 50px;
+}
+
+#comments {
+	padding-top: 50px;
+}
+
+.comments_link {
+	font-size: 10px;
+	float: right;
+}
+
+a.comments_link  {
+	color: #9a9994;
+}
+
+a.comments_link:hover, a.comments_link:active {
+	color: #f14e32;
+}
+
+#page_nav {
+	padding: 20px 0 0 20px;
+}
+
+#page_nav a {
+	margin-left: 10px;
+}
+
+#page_footer {
+	font-size: 10px;
+	color: #9a9994;
+	text-align: center;
+}
+
