@@ -19,8 +19,8 @@ export PATH="$RACKET_HOME/bin:$PATH"
 
 {% highlight scheme %}
 #lang racket
-(define (squre x) (* x x))
-(squre 3)
+(define (square x) (* x x))
+(square 3)
 {% endhighlight %}
 
 注意第一行的"#lang racket"是让Racket识别我们所选择的语言。 保存后从命令行执行"racket test.scm"应该能得到输出结果是9。
